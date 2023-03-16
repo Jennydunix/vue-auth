@@ -1,4 +1,4 @@
-# Vue js application using the cli then simulate a fake authentication experience using vuex and vue router
+# Vue js application using the cli to simulate a fake authentication experience using vuex and vue router
 
 For this project, i designed the login and signup page for implementing vue authentication. Setup the Vuex state management and added validations for the login and signup page and save the response data from signup into the Vuex store state with mutation. I was also able to catch errors on the server and show them on both the signup page and login page.
 
