@@ -10,6 +10,8 @@ I created a product page that shows the product’s details by using the api htt
 
 I added to my application a logout functionality and applied navigation guards for authentication and routing page.
 
+I hosted this application on Vercel and here's the link: https://vue-auth-dun.vercel.app/
+
 _______________________________________________________________________________________________________________________
 
 ![vue-auth](https://user-images.githubusercontent.com/88034429/225673907-6656b7cc-99e5-4f6e-9d06-13c7f58a9959.png)
