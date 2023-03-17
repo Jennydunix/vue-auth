@@ -1,9 +1,9 @@
 <template>
     <div>
         <h1>Products Page</h1>
-        <table class="table">
+        <table class="table" >
             <thead>
-                <tr>
+                <tr class="position">
                     <th>Id</th>
                     <th>Title</th>
                     <th>Description</th>
@@ -66,5 +66,9 @@ import { GET_USER_TOKEN_GETTER, LOADING_SPINNER_SHOW_MUTATION } from '@/store/mo
 </script>
 
 <style scoped>
-
+    .position{
+        display: flex;
+        padding: 6px;
+        justify-content: space-between;
+    }
 </style>

@@ -52,7 +52,7 @@ export default {
 body {
   background: #1C8EF9 !important;
   min-height: 100vh;
-   display: flex;
+  display: flex;
   font-weight: 400;
   font-family: 'Fira Sans', sans-serif;
 }
@@ -78,8 +78,8 @@ body, html, #app, #root, .auth-wrapper {
 
 .auth-wrapper {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  /* justify-content: center; */
+  /* flex-direction: column; */
   text-align: left;
 }
 
