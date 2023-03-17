@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Products Page</h1>
+        <h1 class="display">Products Page</h1>
         <table class="table" >
             <thead>
                 <tr class="position">
@@ -66,6 +66,10 @@ import { GET_USER_TOKEN_GETTER, LOADING_SPINNER_SHOW_MUTATION } from '@/store/mo
 </script>
 
 <style scoped>
+    .display {
+        padding: 40px
+    }
+
     .position{
         display: flex;
         padding: 6px;
