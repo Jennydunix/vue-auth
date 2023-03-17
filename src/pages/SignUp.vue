@@ -19,6 +19,11 @@
         </div>
 
         <button class="btn btn-primary btn-block">Signup</button>
+
+         <p class="message">
+             Registered?
+            <a href="/login">Login</a>
+        </p>
     </form>
 </template>
 

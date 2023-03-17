@@ -19,6 +19,10 @@
         </div>
 
         <button class="btn btn-primary btn-block">Login</button>
+        <p class="message">
+            Not Registered?
+            <a href="/signup">Signup</a>
+        </p>
     </form>
 </template>
 <script>
@@ -82,3 +86,20 @@ import { mapActions, mapMutations } from 'vuex';
         //     }),
         // }
 </script>
+
+<style>
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .message {
+        margin: 15px 0 0;
+        color: #b3b3b3;
+        font-size: 12px;
+    }
+    
+</style>

@@ -3,12 +3,12 @@
     <div class="container">
       <div class="collapse navbar-collapse">
         <div navbar-brand>
-          <a class="navbar-brand" href="/">TheJennyLuchi</a>
+          <a class="navbar-brand" href="#">TheJennyLuchi</a>
         </div>
         <ul class="navbar-nav ml-auto">
 
 
-          <li class="nav-item" >
+          <li class="nav-item" v-if="isAuthenticated" >
             <router-link to="/" class="nav-link">Home</router-link>
           </li>
 

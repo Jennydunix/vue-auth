@@ -8,7 +8,7 @@ import store from "./store/store";
 import { IS_USER_AUTHENTICATED_GETTER } from "./store/modules/auth/storeconstants";
 
 const routes = [
-    {path: '/', component: Home},
+    {path: '/', component: Home, meta: {auth: true}},
     {path: '/login', component: Login, meta: {auth: false} },
     {path: '/signup', component: Signup, meta: {auth: false}},
     {path: '/products', component: Products, meta: {auth: true}},

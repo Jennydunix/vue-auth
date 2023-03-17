@@ -1,8 +1,10 @@
 <template>
     <div>
         <h1>Welcome Human</h1>
-        <p class="intro">You may proceed to login or signup</p>
         <img src="./welcome.png" alt="welcome">
+        <p class="intro">
+            <a href="/product">Go to product page </a>
+        </p>
     </div>
     <!-- <div>
         <router-link to="/products">Got to products page</router-link>
@@ -18,5 +20,9 @@ export default {
 <style>
     .intro, h1 {
         text-align: center;
+    }
+
+    a {
+        font-size: 20px;
     }
 </style>
